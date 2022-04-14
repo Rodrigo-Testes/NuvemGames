@@ -4,7 +4,7 @@
 </div>
 
 # Rockgames
-## Site simples com intuito de facilitar na hora de baixar os meus jogos que estao na nuvem.
+## O site não tem intenção de ganhar nenhum centavo, mas sim com intuito de facilitar na hora de baixar os meus jogos que estão na nuvem.
 O site esta simples mas tenho planos de melhorar 
 
 ### 🌐 Veja o projeto funcionando no link a baixo:
