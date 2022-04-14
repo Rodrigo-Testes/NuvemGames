@@ -7,7 +7,7 @@
 ## Site simples com intuito de facilitar na hora de baixar os meus jogos que estao na nuvem.
 O site esta simples mas tenho planos de melhorar 
 
-### 🌐 Veja o projeto funcionando no link em baixo:
+### 🌐 Veja o projeto funcionando no link a baixo:
 ```
 A Aplicaçao foi colocada no Github Pages.
 ```
