@@ -11,11 +11,21 @@
     --text-light-gray: #aaa;
 }
 
+
+
 /*Aplicando em todos*/
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*html, body{
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}*/
 
 /*mudando a cor do fundo pagina*/
 html, body{
@@ -56,6 +66,7 @@ a, a:hover{
 }
 .rockgames-contact-logo h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
 
 }
 
@@ -74,27 +85,19 @@ a, a:hover{
 }
 
 /*Configurando o rodape*/
-footer{
+.rodape{
     background: var(--color-primary-nav);
     color: #fff;
     text-align: center;
     flex-shrink: 0;
+    padding: 0.4px;
+    
 }
 
 div.body-content{
     /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
     margin-bottom: 40px;
   }
-
-/*Fixando o Rodape
-footer.rodape{
-    border-top: 1px solid #333;
-    bottom: 0;
-    left: 0;
-    height: 50px;
-    position: fixed;
-    width: 100%;
-  }*/
 
 /*card configuraçao*/
 .rockgames-card{
