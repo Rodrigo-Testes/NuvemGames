@@ -17,34 +17,55 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 
 <body>
 
     <!--Snes Station Music Menu -->
     <section>
-        <audio preload="auto" autoplay>
-            <source src="audio/SnesStationMusicMenu.mp3" type="audio/mp3"> 
+        <audio preload="auto" autoplay muted>
+            <source src="audio/SnesStationMusicMenu.mp3" type="audio/mpeg"> 
         </audio>
     </section>
 
     <!-- cabeçalho -->
     <header>
+
+        <header id="header-ham">
+                <!--nome -->
+            <div class="rockgames-contact-logo">
+                <img src="img/playstation.png" alt="Logo">
+               <!-- <h1>NuvemGames</h1>-->
+                <h1><a href="/">NuvemGames</a></h1>
+            </div>
+            
+            <a id="Logo" href=""></a>
+            <nav id="nav-ham">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a href="/">WiiU</a></li>
+                    <li><a href="/">SNES</a></li>
+                    <li><a href="/">DS</a></li>
+                    <li><a href="/">PS2</a></li>
+                    <li><a href="/">PSVITA</a></li>
+                    
+                    
+                </ul>
+            </nav>
+        </header>
+
         <!-- Barra de navegaçao -->
         <nav class="container">
 
-            <!--nome -->
-            <div class="rockgames-contact-logo">
-                <img src="img/playstation.png" alt="Logo">
-                <h1>NuvemGames</h1>
-            </div>
-
             <!--github -->
-            <div class="rockgames-contact-container">
+           <!-- <div class="rockgames-contact-container">
                 <img src="img/github.svg" alt="Github">
                 <a href="https://github.com/Rodrigo-Santoos" target="_blank"
                     rel="noopener noreferrer">/Rodrigo-Santoos</a>
-            </div>
+            </div> -->
         </nav>
 
     </header>
@@ -273,10 +294,11 @@
      <footer class="rodape"> 
         <address>
             Criação e Desenvolvimento: <a
-            href=" rodrigo.de.oliveira.santos00@gmail.com">Rodrigo de 
+            href="https://github.com/Rodrigo-Santoos" target="_blank">Rodrigo de 
             Oliveira dos Santos</a> &copy; 2022
         </address>
-            <!-- <span>Todos os direito - 2022 &copy; Rodrigo de Oliveira dos Santos</span> -->
     </footer>
 </body>
+    <!--Adicionado o caminho do javascript-->
+    <script type="text/javascript" src="js/main.js"></script>
 </html>
