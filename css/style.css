@@ -11,26 +11,21 @@
     --text-light-gray: #aaa;
 }
 
-
-
 /*Aplicando em todos*/
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
+/*background da pagina*/
 html, body{
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=2000);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
    
 }
-
-/*mudando a cor do fundo pagina
-html, body{
-    background-color: #ddd;
-}*/
 
 /*configuraçao do header*/
 header{
@@ -45,8 +40,7 @@ nav{
     justify-content: space-between;
 }
 
-/*configurando o Rodrigo-Santoos*/
-
+/**/
 a, a:hover{
     text-decoration: none;
     color: unset;
@@ -55,9 +49,7 @@ a, a:hover{
 /*Configuraçao nav*/
 .rockgames-contact-container{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 
 .rockgames-contact-logo{
@@ -68,7 +60,6 @@ a, a:hover{
 .rockgames-contact-logo h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
-
 }
 
 /*Configuraçao da nav que tem a img*/
@@ -88,6 +79,7 @@ a, a:hover{
 /*Configurando gif de aviso*/
 .aviso h1{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .aviso h2{
@@ -96,7 +88,12 @@ a, a:hover{
 }
 .aviso2 h4{
     text-align: center;
+}
+
+.aviso3 h1{
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #283593;
 }
 
 .linguagem h1{
@@ -109,17 +106,6 @@ a, a:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*Configurando o rodape
-.rodape{
-    background: var(--color-primary-nav);
-    color: #fff;
-    text-align: center;
-    flex-shrink: 0;
-    padding: 0.4px;
-    bottom: 0;
-    left: 0;
-    
-}*/
 .rodape-home{
     border-top: 1px solid #333;
     background: var(--color-primary-nav);

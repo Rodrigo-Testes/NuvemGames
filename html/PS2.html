@@ -12,7 +12,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/588/588284.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/ps2.png" type="image/x-icon" />
 
     <!--CSS-->
     <link rel="stylesheet" href="/css/style_ps2.css">
@@ -20,7 +20,9 @@
 
 </head>
 
-<body>
+<body class="bg">
+
+
 
     <!--Snes Station Music Menu -->
     <section>
@@ -40,16 +42,18 @@
             
             <a id="Logo" href=""></a>
             <nav id="nav-ham">
-            </button>
-            <ul id="menu" role="menu">
-                <li><a href="/html/Wiiu.html">WiiU</a></li>
-                <li><a href="/html/SNES.html">SNES</a></li>
-                <li><a href="/html/DS.html">DS</a></li>
-                <li><a href="/html/PS2.html">PS2</a></li>
-                <li><a href="/html/PSVITA.html">PSVITA</a></li> 
-            </ul>
-        </nav>
-    </header>
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a href="html/Wiiu.html">WiiU</a></li>
+                    <li><a href="html/SNES.html">SNES</a></li>
+                    <li><a href="html/DS.html">DS</a></li>
+                    <li><a href="html/PS2.html">PS2</a></li>
+                    <li><a href="html/PSVITA.html">PSVITA</a></li> 
+                </ul>
+            </nav>
+        </header>
 
         <!-- Barra de navegaçao -->
         <nav class="container">
@@ -253,5 +257,5 @@
     </footer>
 </body>
     <!--Adicionado o caminho do javascript-->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
 </html>
