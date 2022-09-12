@@ -26,10 +26,6 @@ html, body{
    
 }
 
-/*mudando a cor do fundo pagina
-html, body{
-    background-color: #ddd;
-}*/
 
 /*configuraçao do header*/
 header{
@@ -84,17 +80,6 @@ a, a:hover{
     margin-right: 5px;
 }
 
-/*Configurando o rodape*/
-/*.rodape{
-    background: var(--color-primary-nav);
-    color: #fff;
-    text-align: center;
-    flex-shrink: 0;
-    padding: 0.4px;
-    bottom: 0;
-    left: 0;
-    
-}*/
 .rodape-wiiu{
     border-top: 1px solid #333;
     background: var(--color-primary);
@@ -195,7 +180,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color:red
+    color:rgb(0, 81, 255)
 }
 
 #menu a{
