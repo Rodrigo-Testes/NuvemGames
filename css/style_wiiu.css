@@ -11,8 +11,6 @@
     --text-light-gray: #aaa;
 }
 
-
-
 /*Aplicando em todos*/
 *{
     box-sizing: border-box;
@@ -85,32 +83,8 @@ a, a:hover{
     margin-right: 5px;
 }
 
-/*Configurando gif de aviso*/
-.aviso h1{
-    text-align: center;
-}
-
-.aviso h2{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.aviso2 h4{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.linguagem h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.span-aviso {
-    color: crimson;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/*Configurando o rodape
-.rodape{
+/*Configurando o rodape*/
+/*.rodape{
     background: var(--color-primary-nav);
     color: #fff;
     text-align: center;
@@ -120,7 +94,7 @@ a, a:hover{
     left: 0;
     
 }*/
-.rodape-home{
+.rodape-wiiu{
     border-top: 1px solid #333;
     background: var(--color-primary-nav);
     color: #fff;

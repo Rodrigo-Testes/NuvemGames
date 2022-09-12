@@ -11,8 +11,6 @@
     --text-light-gray: #aaa;
 }
 
-
-
 /*Aplicando em todos*/
 *{
     box-sizing: border-box;
@@ -29,7 +27,7 @@ html, body{
 
 /*mudando a cor do fundo pagina
 html, body{
-    background-color: #ddd;
+    background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
 }*/
 
 /*configuraçao do header*/
@@ -85,31 +83,7 @@ a, a:hover{
     margin-right: 5px;
 }
 
-/*Configurando gif de aviso*/
-.aviso h1{
-    text-align: center;
-}
-
-.aviso h2{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.aviso2 h4{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.linguagem h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.span-aviso {
-    color: crimson;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/*Configurando o rodape
+/*Configurando o rodape*/
 .rodape{
     background: var(--color-primary-nav);
     color: #fff;
@@ -119,8 +93,8 @@ a, a:hover{
     bottom: 0;
     left: 0;
     
-}*/
-.rodape-home{
+}
+.rodape-vita{
     border-top: 1px solid #333;
     background: var(--color-primary-nav);
     color: #fff;
