@@ -29,18 +29,6 @@ body, html{
     background-attachment: fixed;
 }
 
-/*html, body{
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-   
-}*/
-
-/*mudando a cor do fundo pagina
-html, body{
-    background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-}*/
 
 /*configuraçao do header*/
 header{
@@ -65,9 +53,7 @@ a, a:hover{
 /*Configuraçao nav*/
 .rockgames-contact-container{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 
 .rockgames-contact-logo{
@@ -78,7 +64,6 @@ a, a:hover{
 .rockgames-contact-logo h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
-
 }
 
 /*Configuraçao da nav que tem a img*/
