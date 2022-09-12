@@ -5,7 +5,7 @@
 :root{
     --bg-gray: #ddd;
     --color-primary:#1565C0;
-    --color-primary-nav: #283593;
+    --color-primary-nav: #fe0016;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -18,10 +18,11 @@
 }
 
 html, body{
-    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=2000);
+    background-image: url(https://wallpaperaccess.com/full/236571.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
    
 }
 
@@ -96,7 +97,7 @@ a, a:hover{
 }*/
 .rodape-wiiu{
     border-top: 1px solid #333;
-    background: var(--color-primary-nav);
+    background: var(--color-primary);
     color: #fff;
     text-align: center;
     bottom: 0;
