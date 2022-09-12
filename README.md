@@ -1,6 +1,8 @@
 <div align="center">
   <img src="https://logospng.org/download/html-5/logo-html-5-512.png" width="100" >
   <img src="https://logospng.org/download/css-3/logo-css-3-512.png" width="100" >
+  <img src="https://logospng.org/download/javascript/logo-javascript-icon-256.png" width="100" >
+  
 </div>
 
 # NuvemGames
