@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#1565C0;
-    --color-primary-nav: #fe0016;
+    --color-primary:#363da1;
+    --color-primary-nav: #363da1;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -18,7 +18,7 @@
 }
 
 html, body{
-    background-image: url(https://wallpaperaccess.com/full/236571.jpg);
+    background-image: url(https://preview.redd.it/u09c8lh3ap071.png?auto=webp&s=f3c2e008223e83dafbf0c11bc7b701032a70d662);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -180,7 +180,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color:rgb(0, 81, 255)
+    color:red
 }
 
 #menu a{

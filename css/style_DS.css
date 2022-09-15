@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#1565C0;
-    --color-primary-nav: #2d2df5;
+    --color-primary:#5959fa;
+    --color-primary-nav: #5959fa;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -22,7 +22,7 @@ body, html{
     margin: 0;
 }
 .bg{
-    background-image: url(https://images.hdqwalls.com/download/super-mario-nintendo-4k-ek-1920x1080.jpg);
+    background-image: url(https://cdn.clickwallpapers.net/images/clickwallpapers-nintendo-ds-img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
