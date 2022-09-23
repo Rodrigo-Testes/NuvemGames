@@ -90,10 +90,20 @@ a, a:hover{
     text-align: center;
 }
 
+.aviso2 h2{ 
+    text-align: center;
+}
+
 .aviso3 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #283593;
+}
+
+.aviso img.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .linguagem h1{
@@ -104,6 +114,7 @@ a, a:hover{
 .span-aviso {
     color: crimson;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 .rodape-home{

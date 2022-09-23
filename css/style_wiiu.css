@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#363da1;
-    --color-primary-nav: #363da1;
+    --color-primary:#2e455c;
+    --color-primary-nav: #2C3E50;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -18,7 +18,7 @@
 }
 
 html, body{
-    background-image: url(https://preview.redd.it/u09c8lh3ap071.png?auto=webp&s=f3c2e008223e83dafbf0c11bc7b701032a70d662);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/38c0cef0-b1fd-4ec0-8c4c-4aa71596e756/d8j0mv1-35fb54fc-35bd-4bbb-acb1-d25ad7e3e92d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM4YzBjZWYwLWIxZmQtNGVjMC04YzRjLTRhYTcxNTk2ZTc1NlwvZDhqMG12MS0zNWZiNTRmYy0zNWJkLTRiYmItYWNiMS1kMjVhZDdlM2U5MmQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._x95l5a5V_0GffFPqqnD6A4kdaUx6dW6GI2pCw752l8);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -135,7 +135,7 @@ div.body-content{
 .rockgames-btn, rockgames-btn:hover{
     width: 180px;
     height: 40px;
-    background-color: var(--color-primary);
+    background-color: #4e66ee;
     color: var(--white);
     font-size: 14px;
     font-weight: 700;
@@ -145,6 +145,7 @@ div.body-content{
     border-radius: 4px;
     border: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
 }
 
 /*nomes dos jogos*/
@@ -180,13 +181,15 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color:red
+    color:rgb(194, 41, 181)
 }
 
 #menu a{
     display: block;
     padding: .5rem;
-    font-family: 'Times New Roman', Times, serif'
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ 
 }
 
 /*btn-mobile*/
