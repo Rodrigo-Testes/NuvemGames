@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=2000);
+    background-image: url("/img/fundo_index.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
