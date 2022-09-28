@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url("/img/fundo_index.jpg");
+    background-image: url("../img/fundo_index.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
