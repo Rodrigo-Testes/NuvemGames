@@ -18,12 +18,17 @@
 }
 
 html, body{
+    height: 100%;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/38c0cef0-b1fd-4ec0-8c4c-4aa71596e756/d8j0mv1-35fb54fc-35bd-4bbb-acb1-d25ad7e3e92d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM4YzBjZWYwLWIxZmQtNGVjMC04YzRjLTRhYTcxNTk2ZTc1NlwvZDhqMG12MS0zNWZiNTRmYy0zNWJkLTRiYmItYWNiMS1kMjVhZDdlM2U5MmQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._x95l5a5V_0GffFPqqnD6A4kdaUx6dW6GI2pCw752l8);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
    
+}
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -51,8 +56,6 @@ a, a:hover{
 .rockgames-contact-container{
     display: flex;
     align-items: center;
-    
-    
 }
 
 .rockgames-contact-logo{
@@ -81,15 +84,16 @@ a, a:hover{
 }
 
 .rodape-wiiu{
+    flex-shrink: 0;
     border-top: 1px solid #333;
     background: var(--color-primary);
     color: #fff;
     text-align: center;
+    flex-shrink: 0;
+    padding: 0.4px;
     bottom: 0;
     left: 0;
     height: 40px;
-    position: fixed;
-    width: 100%;
 }
 
 div.body-content{
@@ -188,8 +192,6 @@ li:hover {
     display: block;
     padding: .5rem;
     font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
- 
 }
 
 /*btn-mobile*/

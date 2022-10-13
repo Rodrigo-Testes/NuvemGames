@@ -91,17 +91,7 @@ a, a:hover{
     left: 0;
     
 }
-.rodape-vita{
-    border-top: 1px solid #333;
-    background: var(--color-primary-nav);
-    color: #fff;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    height: 40px;
-    position: fixed;
-    width: 100%;
-}
+
 
 div.body-content{
     /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
