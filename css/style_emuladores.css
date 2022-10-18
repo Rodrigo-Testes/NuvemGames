@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#1565C0;
-    --color-primary-nav: #283593;
+    --color-primary:#000000;
+    --color-primary-nav: #000000;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -17,15 +17,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/*background da pagina*/
 html, body{
-    background-image: url("../img/fundo_index.jpg");
+    background-image: url("../img/video.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
    
 }
+
 
 /*configuraçao do header*/
 header{
@@ -40,7 +40,8 @@ nav{
     justify-content: space-between;
 }
 
-/**/
+/*configurando o Rodrigo-Santoos*/
+
 a, a:hover{
     text-decoration: none;
     color: unset;
@@ -49,7 +50,9 @@ a, a:hover{
 /*Configuraçao nav*/
 .rockgames-contact-container{
     display: flex;
-    align-items: center; 
+    align-items: center;
+    
+    
 }
 
 .rockgames-contact-logo{
@@ -60,6 +63,7 @@ a, a:hover{
 .rockgames-contact-logo h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
+
 }
 
 /*Configuraçao da nav que tem a img*/
@@ -76,56 +80,15 @@ a, a:hover{
     margin-right: 5px;
 }
 
-/*Configurando gif de aviso*/
-.aviso h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.aviso h2{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.aviso2 h4{
-    text-align: center;
-}
-
-.aviso2 h2{ 
-    text-align: center;
-}
-
-.aviso3 h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #283593;
-}
-
-.aviso img.imagem{
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-.linguagem h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.span-aviso {
-    color: crimson;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-
-.rodape-home{
+.rodape-snes{
     border-top: 1px solid #333;
-    background: var(--color-primary-nav);
+    background: var(--color-primary);
     color: #fff;
     text-align: center;
-    position: absolute;
     bottom: 0;
     left: 0;
     height: 40px;
+    position: fixed;
     width: 100%;
 }
 
@@ -184,6 +147,12 @@ div.body-content{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+.row, p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /*nomes dos jogos*/
 .rockgames-card-description h3{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -217,7 +186,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color: #18FFFF;
+    color:rgb(0, 81, 255)
 }
 
 #menu a{
