@@ -81,25 +81,15 @@ a, a:hover{
 }
 
 /*Configurando o rodape*/
-.rodape{
-    background: var(--color-primary-nav);
-    color: #fff;
-    text-align: center;
-    flex-shrink: 0;
-    padding: 0.4px;
-    bottom: 0;
-    left: 0;
-    
-}
 .rodape-ds{
-    border-top: 1px solid #333;
     background: var(--color-primary-nav);
     color: #fff;
     text-align: center;
-    flex-shrink: 0;
-    padding: 0.4px;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    bottom: -10em;
+    width:100%;
+    height: auto;
+    
 }
 
 div.body-content{

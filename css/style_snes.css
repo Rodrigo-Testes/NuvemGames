@@ -81,15 +81,13 @@ a, a:hover{
 }
 
 .rodape-snes{
-    border-top: 1px solid #333;
-    background: var(--color-primary);
+    background: var(--color-primary-nav);
     color: #fff;
     text-align: center;
-    bottom: 0;
-    left: 0;
-    height: 40px;
-    position: fixed;
-    width: 100%;
+    position: relative;
+    bottom: -10em;
+    width:100%;
+    height: auto;
 }
 
 div.body-content{
