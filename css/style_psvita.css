@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#1565C0;
-    --color-primary-nav: #0e0d0d;
+    --color-primary:#2e455c;
+    --color-primary-nav: #2C3E50;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -17,8 +17,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/*background da pagina*/
 html, body{
-    background-image: url(https://cdn.wallpapersafari.com/56/43/U3fyA1.jpg);
+    background-image: url("../img/mario_pixel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -39,8 +40,7 @@ nav{
     justify-content: space-between;
 }
 
-/*configurando o Rodrigo-Santoos*/
-
+/**/
 a, a:hover{
     text-decoration: none;
     color: unset;
@@ -49,7 +49,7 @@ a, a:hover{
 /*Configuraçao nav*/
 .rockgames-contact-container{
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .rockgames-contact-logo{
@@ -61,6 +61,10 @@ a, a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
 }
+.rockgames-contact-logo{
+    margin-right: 5px;
+}
+
 
 /*Configuraçao da nav que tem a img*/
 .rockgames-contact-container{
@@ -72,26 +76,67 @@ a, a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.rockgames-contact-logo{
-    margin-right: 5px;
-}
 
-.rodape-vita{
-    border-top: 1px solid #333;
-    background: var(--color-primary-nav);
-    color: #fff;
+/*Configurando gif de aviso*/
+.aviso h1{
     text-align: center;
-    bottom: 0;
-    left: 0;
-    height: 40px;
-    position: fixed;
-    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
-div.body-content{
-    /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
-    margin-bottom: 40px;
-  }
+.aviso h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);  
+}
+.aviso2 h4{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.aviso2 h2{ 
+    text-align: center;
+}
+
+.aviso3 h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #283593;
+}
+
+.aviso img.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.linguagem h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.span-aviso {
+    color: #15b137;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.span-aviso2 {
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+}
+
+address{
+    margin:0;
+}
 
 /*card configuraçao*/
 .rockgames-card{
@@ -176,7 +221,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color: #3F51B5
+    color: #8f18ff;
 }
 
 #menu a{
@@ -191,7 +236,7 @@ li:hover {
 }
 
 /*mostrar o menu de acordo com a tela*/
-@media (max-width:600px){
+@media (max-width:500px){
     #menu{
         display: block;
         position: absolute;

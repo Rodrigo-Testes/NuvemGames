@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#5959fa;
-    --color-primary-nav: #5959fa;
+    --color-primary:#2e455c;
+    --color-primary-nav: #2C3E50;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -17,18 +17,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body, html{
-    height: 100%;
-    margin: 0;
-}
-.bg{
-    background-image: url(https://cdn.clickwallpapers.net/images/clickwallpapers-nintendo-ds-img3.jpg);
+/*background da pagina*/
+html, body{
+    background-image: url("../img/fundo/pokemon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
+   
 }
-
 
 /*configuraçao do header*/
 header{
@@ -43,8 +40,7 @@ nav{
     justify-content: space-between;
 }
 
-/*configurando o Rodrigo-Santoos*/
-
+/**/
 a, a:hover{
     text-decoration: none;
     color: unset;
@@ -65,6 +61,10 @@ a, a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
 }
+.rockgames-contact-logo{
+    margin-right: 5px;
+}
+
 
 /*Configuraçao da nav que tem a img*/
 .rockgames-contact-container{
@@ -76,26 +76,67 @@ a, a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.rockgames-contact-logo{
-    margin-right: 5px;
-}
 
-/*Configurando o rodape*/
-.rodape-ds{
-    background: var(--color-primary-nav);
-    color: #fff;
+/*Configurando gif de aviso*/
+.aviso h1{
     text-align: center;
-    position: relative;
-    bottom: -10em;
-    width:100%;
-    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
-div.body-content{
-    /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
-    margin-bottom: 40px;
-  }
+.aviso h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);  
+}
+.aviso2 h4{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.aviso2 h2{ 
+    text-align: center;
+}
+
+.aviso3 h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #283593;
+}
+
+.aviso img.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.linguagem h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.span-aviso {
+    color: #15b137;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.span-aviso2 {
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+}
+
+address{
+    margin:0;
+}
 
 /*card configuraçao*/
 .rockgames-card{
@@ -180,7 +221,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color:red
+    color: #8f18ff;
 }
 
 #menu a{
@@ -195,7 +236,7 @@ li:hover {
 }
 
 /*mostrar o menu de acordo com a tela*/
-@media (max-width:600px){
+@media (max-width:500px){
     #menu{
         display: block;
         position: absolute;
