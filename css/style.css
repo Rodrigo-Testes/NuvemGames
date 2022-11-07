@@ -61,6 +61,9 @@ a, a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
 }
+.rockgames-contact-logo{
+    margin-right: 5px;
+}
 
 /*Configuraçao da nav que tem a img*/
 .rockgames-contact-container{
@@ -72,9 +75,6 @@ a, a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.rockgames-contact-logo{
-    margin-right: 5px;
-}
 
 /*Configurando gif de aviso*/
 .aviso h1{
@@ -229,7 +229,7 @@ li:hover {
 }
 
 /*mostrar o menu de acordo com a tela*/
-@media (max-width:600px){
+@media (max-width:500px){
     #menu{
         display: block;
         position: absolute;
