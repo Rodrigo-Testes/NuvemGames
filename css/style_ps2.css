@@ -5,7 +5,7 @@
 :root{
     --bg-gray: #ddd;
     --color-primary:#2e455c;
-    --color-primary-nav: #2C3E50;
+    --color-primary-nav: #000000;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url("../img/mario_pixel.jpg");
+    background-image: url("../img/fundo/ps2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

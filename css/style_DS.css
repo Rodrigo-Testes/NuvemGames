@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url("../img/fundo/pokemon.jpg");
+    background-image: url("../img/fundo/3657804.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -110,12 +110,24 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #283593;
 }
-
-.aviso img.imagem{
+.anima{
     display: block;
-    margin-left: auto;
-    margin-right: auto 
 }
+
+.anima img.imagem-mario{
+ padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 95px;
+    
+}
+.anima img.imagem-bowser{
+    transform: rotateY(180deg);
+    margin-left: auto;
+    margin-right: auto ;
+    float: right;
+}
+
 
 .linguagem h1{
     text-align: center;
