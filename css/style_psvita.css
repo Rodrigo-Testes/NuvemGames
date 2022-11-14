@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url("../img/mario_pixel.jpg");
+    background-image: url("../img/fundo/vita2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
