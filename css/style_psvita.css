@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#2e455c;
-    --color-primary-nav: #2C3E50;
+    --color-primary:#3c9c97;
+    --color-primary-nav: #050505;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url("../img/fundo/vita2.jpg");
+    background-image: url("../img/fundo/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
