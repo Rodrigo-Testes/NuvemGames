@@ -5,7 +5,7 @@
 :root{
     --bg-gray: #ddd;
     --color-primary:#2e455c;
-    --color-primary-nav: #2C3E50;
+    --color-primary-nav: #536DFE;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -221,7 +221,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color: #8f18ff;
+    color: #a833f7;
 }
 
 #menu a{
