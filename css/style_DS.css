@@ -110,24 +110,19 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #283593;
 }
+/*gif*/
 .anima{
-    float:left;
-    justify-content: right;
-    align-items: center;
+    display:flex;
+  align-items: center;
+  justify-content: center;
+    
 }
 
 .anima img.imagem-mario{
- padding-left: 10px;
-    margin-left: auto;
-    margin-right: auto ;
-    width: 95px;
-    float:left;
-    
+    width: 95px; 
 }
 .anima img.imagem-bowser{
     transform: rotateY(180deg);
-    margin-left: auto;
-    margin-right: auto ;
     float: right;
     float:left;
 }
