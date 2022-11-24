@@ -4,8 +4,8 @@
 /*cor que vao usar mais*/
 :root{
     --bg-gray: #ddd;
-    --color-primary:#2e455c;
-    --color-primary-nav: #2C3E50;
+    --color-primary:#47658d;
+    --color-primary-nav: #050505;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url("https://cdn.dribbble.com/users/4281994/screenshots/9040560/nintendo_3ds_original_4x.png");
+    background-image: url("../img/fundo/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -110,28 +110,12 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #283593;
 }
-.anima{
-    float:left;
-    justify-content: right;
-    align-items: center;
-}
 
-.anima img.imagem-mario{
- padding-left: 10px;
+.aviso img.imagem{
+    display: block;
     margin-left: auto;
-    margin-right: auto ;
-    width: 95px;
-    float:left;
-    
+    margin-right: auto 
 }
-.anima img.imagem-bowser{
-    transform: rotateY(180deg);
-    margin-left: auto;
-    margin-right: auto ;
-    float: right;
-    float:left;
-}
-
 
 .linguagem h1{
     text-align: center;
@@ -237,7 +221,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color: #ff18ba;
+    color: #8f18ff;
 }
 
 #menu a{
