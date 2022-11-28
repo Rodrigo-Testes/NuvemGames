@@ -221,7 +221,7 @@ body, ul{
     transition: color 1s; /* For modern browsers */
 }
 li:hover {
-    color: #a833f7;
+    color: #1874ff;
 }
 
 #menu a{
