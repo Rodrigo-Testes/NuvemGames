@@ -17,4 +17,4 @@ A Aplicaçao está Hospedado no Github Pages.
 
 ## ✒️ Desenvolvido
 
-*  <a href="https://rodrigo-santoos.github.io/Rockgames/" target="_blank" rel="external">Rodrigo Oliveira</a>
+*  <a href="https://github.com/Rodrigo-Santoos" target="_blank" rel="external">Rodrigo Oliveira</a>
