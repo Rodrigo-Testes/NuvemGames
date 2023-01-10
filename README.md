@@ -11,6 +11,10 @@ O site esta simples mas tenho planos de melhorar
 
 ### 🌐 Veja o projeto funcionando no link a baixo:
 ```
-A Aplicaçao foi colocada no Github Pages.
+A Aplicaçao está Hospedado no Github Pages.
 ```
 - <a href="https://rodrigo-santoos.github.io/Rockgames/" target="_blank" rel="external">Clique Aqui</a>
+
+## ✒️ Desenvolvido
+
+*  <a href="https://rodrigo-santoos.github.io/Rockgames/" target="_blank" rel="external">Rodrigo Oliveira</a>
