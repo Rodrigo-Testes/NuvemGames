@@ -7,7 +7,7 @@
 
 # NuvemGames
 ## O site não tem intenção de ganhar nenhum centavo, mas sim com intuito de facilitar na hora de baixar os meus jogos que estão na nuvem.
-O site esta simples mas tenho planos de melhorar 
+O site tem como objetivo reunir todos os meus jogos e do meu irmão e deixar amostra em apenas em um lugar, fique à vontade para poder baixar e jogar e seu Vídeo Game | PC 😉
 
 ### 🌐 Veja o projeto funcionando no link a baixo:
 ```
