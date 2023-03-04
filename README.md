@@ -13,7 +13,7 @@ O site tem como objetivo reunir todos os meus jogos e do meu irmão e deixar amo
 ```
 A Aplicaçao está Hospedado no Github Pages.
 ```
-- <a href="https://rodrigo-santoos.github.io/Rockgames/" target="_blank" rel="external">Clique Aqui</a>
+- <a href="https://rodrigo-santoos.github.io/NuvemGames/" target="_blank" rel="external">Clique Aqui</a>
 
 ## ✒️ Desenvolvido
 
