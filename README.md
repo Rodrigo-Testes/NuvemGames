@@ -8,8 +8,8 @@
 # Teste de Estagio Danval Indústria e Comércio Ltda
 ### 📌Aviso
 ```
-Se você usa um monitor que tem a resolução de 1920x1080, na página principal o rodapé está meio que fora do lugar.
-Mas não quebra em nada e tudo esta funcionando normalmente, agradeço a atenção 
+Se você usa um monitor que tem a resolução de 1920x1080, na página principal o rodapé está meio que fora do lugar 
+e nao sei o por que... mas não quebra em nada e tudo esta funcionando normalmente, agradeço a atenção 
 
 ```
 
