@@ -5,7 +5,7 @@
 :root{
     --bg-gray: #ddd;
     --color-primary:#47658d;
-    --color-primary-nav: #00000034;
+    --color-primary-nav: #0000002f;
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
@@ -19,7 +19,7 @@
 
 /*background da pagina*/
 html, body{
-    background-image: url("https://wallpaper.dog/large/5511390.jpg");
+    background-image: url("https://cdn.smashcontrol.com/plataforma/capa/nintendo-3ds.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
