@@ -5,7 +5,7 @@
 
 </div>
 
-# Teste de Estagio Danval Indústria e Comércio Ltda
+# Projeto NuvemGames
 ### 📌Aviso
 ```
 Se você usa um monitor que tem a resolução de 1920x1080, na página principal o rodapé está meio que fora do lugar 
